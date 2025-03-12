@@ -27,3 +27,9 @@ console.table([typeof booleanIsLoggedIn, booleanIsLoggedIn])
 num = 1992
 let someString = String(num)
 console.table([num, someString, typeof someString])
+
+// Operations in Javascript
+let value = 3
+let negValue = -value
+console.table([value, negValue, 5 + 2, 1 + 2 + "2", "1" + 2 + 2]) // some things to learn in JS
+console.log(3 / 2); // prints 1.5
