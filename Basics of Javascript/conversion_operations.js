@@ -6,6 +6,7 @@ let num = Number(str)
 console.table([typeof str, typeof num, num])
 
 /*
+Number Conversion in JS :-
 "33" -> 33
 "23abc" -> NaN (Not a Number) but type of NaN is a number
 true -> 1 and false -> 0
@@ -19,6 +20,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.table([typeof booleanIsLoggedIn, booleanIsLoggedIn])
 
 /*
+Boolean Conversion in JS :-
 1 -> true and 0 -> false
 "" (empty string) -> false
 "Raghav" (non-empty string) -> true
@@ -29,7 +31,9 @@ let someString = String(num)
 console.table([num, someString, typeof someString])
 
 // Operations in Javascript
-let value = 3
+let value = 3.5
 let negValue = -value
 console.table([value, negValue, 5 + 2, 1 + 2 + "2", "1" + 2 + 2]) // some things to learn in JS
 console.log(3 / 2); // prints 1.5
+
+console.table(["2" == 2, "2" === 2]);
